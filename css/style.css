@@ -122,31 +122,11 @@ nav.main-nav a[aria-current="page"] {
   color: #fff;
 }
 
-/* Hero */
-.hero {
-  background: var(--color-bg-alt);
-  padding: 64px 0;
-  border-bottom: 1px solid var(--color-border);
-}
-
-.hero h1 {
-  font-family: var(--font-heading);
-  font-size: 2.2rem;
-  margin: 0 0 8px;
-  color: var(--color-navy);
-}
-
-.hero .subtitle {
-  font-size: 1.15rem;
-  color: #4a5b5d;
-  margin: 0 0 24px;
-}
-
-.hero p.lead {
+.lead {
   max-width: 640px;
 }
 
-/* Page header (non-home pages) */
+/* Page header (all pages) */
 .page-header {
   background: var(--color-bg-alt);
   padding: 40px 0;
@@ -313,10 +293,6 @@ footer.site-footer ul {
 }
 
 @media (max-width: 600px) {
-  .hero h1 {
-    font-size: 1.7rem;
-  }
-
   .brand .brand-name,
   .brand .brand-sep,
   .brand .brand-tagline {
