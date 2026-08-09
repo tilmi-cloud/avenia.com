@@ -26,6 +26,7 @@ avenia.com/kontakt.html
 avenia.com/impressum.html
 avenia.com/datenschutz.html
 avenia.com/css/style.css
+avenia.com/js/mail.js
 ```
 
 **Per FTP** (z. B. mit FileZilla oder Cyberduck):
@@ -57,10 +58,14 @@ aus der öffentlichen Anzeige heraus.
   zulässig: laut EuGH-Urteil (Rs. C-298/07, "Deutsche Internet Versicherung") reicht eine
   E-Mail-Adresse für die "schnelle Kontaktaufnahme" nach § 5 DDG (früher TMG) aus, ein
   Telefonanschluss muss nicht zwingend veröffentlicht werden.
-- Die E-Mail-Adresse ist im HTML leicht mit HTML-Entities kodiert (`&#64;` statt `@`).
-  Das ist für Besucher und Screenreader unsichtbar, erschwert aber primitiven Adress-Scrapern
-  das automatisierte Auslesen. Ein 100%-Schutz ist das nicht – wirksamer ist zusätzlich:
+- Die E-Mail-Adresse steht nirgends als Klartext im HTML. Stattdessen liefern
+  `kontakt.html`, `impressum.html` und `datenschutz.html` nur `data-user="hello"` und
+  `data-domain="avenia.com"` an einem Link; `js/mail.js` baut daraus im Browser erst
+  `href="mailto:..."` und den sichtbaren Text zusammen. Das Skript ist rein lokal
+  (kein externer Aufruf, kein Tracking) und blockt damit die meisten simplen
+  Adress-Scraper, die nur den rohen HTML-Quelltext auswerten und kein JavaScript
+  ausführen. Ein 100%-Schutz ist auch das nicht – wirksamer ist zusätzlich:
   - ein separates Postfach `hello@avenia.com` nur für die Website (bereits umgesetzt),
   - großzügige Spam-Filter-Regeln im IONOS-Postfach,
   - bei Bedarf später ein Wechsel der Adresse, falls sie stark zugespammt wird
-    (die Website-Datei ist dann in einer Zeile anzupassen).
+    (dazu genügt es, `data-user`/`data-domain` in den drei HTML-Dateien anzupassen).
