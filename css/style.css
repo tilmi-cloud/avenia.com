@@ -21,6 +21,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--header-h, 90px);
 }
 
 body {
@@ -51,6 +52,12 @@ header.site-header {
   background: var(--color-navy);
   color: #fff;
   padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
 }
 
 header.site-header .wrap {
@@ -273,8 +280,13 @@ footer.site-footer {
   background: var(--color-navy-dark);
   color: #cfd6de;
   padding: 28px 0;
-  margin-top: 48px;
   font-size: 0.85rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.15);
 }
 
 footer.site-footer .wrap {
