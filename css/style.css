@@ -64,7 +64,8 @@ header.site-header .wrap {
 .brand {
   display: flex;
   align-items: baseline;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  white-space: nowrap;
   gap: 6px;
   text-decoration: none;
   color: #fff;
