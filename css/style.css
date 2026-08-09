@@ -71,11 +71,13 @@ header.site-header .wrap {
 .brand .brand-name {
   font-family: var(--font-heading);
   font-size: 1.6rem;
+  font-weight: 700;
   letter-spacing: 0.5px;
 }
 
 .brand .brand-tagline {
   font-size: 0.8rem;
+  font-weight: 300;
   color: #cfd6de;
   letter-spacing: 0.3px;
 }
@@ -185,18 +187,20 @@ h2 {
   border-radius: 6px;
   padding: 24px;
   background: #fff;
-  overflow: hidden;
 }
 
 .service-card-header {
-  margin: -24px -24px 16px;
+  margin-bottom: 16px;
   line-height: 0;
 }
 
 .service-card-header img {
   display: block;
-  width: 100%;
+  width: 160px;
+  max-width: 100%;
   height: auto;
+  margin: 0 auto;
+  border-radius: 4px;
 }
 
 .service-card h3 {
