@@ -185,6 +185,18 @@ h2 {
   border-radius: 6px;
   padding: 24px;
   background: #fff;
+  overflow: hidden;
+}
+
+.service-card-header {
+  margin: -24px -24px 16px;
+  line-height: 0;
+}
+
+.service-card-header img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .service-card h3 {
