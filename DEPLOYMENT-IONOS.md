@@ -27,6 +27,9 @@ avenia.com/impressum.html
 avenia.com/datenschutz.html
 avenia.com/css/style.css
 avenia.com/js/mail.js
+avenia.com/img/versicherungen.svg
+avenia.com/img/finanzanlagen.svg
+avenia.com/img/immobilien.svg
 ```
 
 **Per FTP** (z. B. mit FileZilla oder Cyberduck):
