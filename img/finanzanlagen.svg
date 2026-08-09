@@ -14,24 +14,14 @@
     <circle cx="40" cy="144" r="2"/><circle cx="95" cy="144" r="2"/><circle cx="150" cy="144" r="2"/><circle cx="205" cy="144" r="2"/><circle cx="260" cy="144" r="2"/><circle cx="315" cy="144" r="2"/>
   </g>
 
-  <g fill="#9c7a3c" opacity="0.25">
-    <rect x="630" y="150" width="44" height="40"/>
-    <rect x="690" y="130" width="44" height="60"/>
-    <rect x="750" y="100" width="44" height="90"/>
-    <rect x="810" y="65" width="44" height="125"/>
-    <rect x="870" y="40" width="44" height="150"/>
-  </g>
-
-  <polyline points="652,145 712,122 772,92 832,58 892,35" fill="none" stroke="#c9a35c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M892 35 L928 12" fill="none" stroke="#c9a35c" stroke-width="5" stroke-linecap="round"/>
-  <path d="M906 12 L928 12 L928 34" fill="none" stroke="#c9a35c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-
-  <g fill="#c9a35c" stroke="#0a1929" stroke-width="2">
-    <circle cx="652" cy="145" r="6"/>
-    <circle cx="712" cy="122" r="6"/>
-    <circle cx="772" cy="92" r="6"/>
-    <circle cx="832" cy="58" r="6"/>
-    <circle cx="892" cy="35" r="6"/>
+  <g stroke="#c9a35c" stroke-width="5" stroke-linecap="round">
+    <line x1="650" y1="180" x2="664" y2="142" opacity="0.35"/>
+    <line x1="688" y1="180" x2="707" y2="128" opacity="0.45"/>
+    <line x1="726" y1="180" x2="750" y2="114" opacity="0.55"/>
+    <line x1="764" y1="180" x2="795" y2="95" opacity="0.65"/>
+    <line x1="802" y1="180" x2="840" y2="77" opacity="0.78"/>
+    <line x1="840" y1="180" x2="885" y2="58" opacity="0.9"/>
+    <line x1="878" y1="180" x2="931" y2="34" opacity="1"/>
   </g>
 
   <rect x="0" y="195" width="1000" height="5" fill="#9c7a3c" opacity="0.85"/>

@@ -14,9 +14,10 @@
     <circle cx="40" cy="144" r="2"/><circle cx="95" cy="144" r="2"/><circle cx="150" cy="144" r="2"/><circle cx="205" cy="144" r="2"/><circle cx="260" cy="144" r="2"/><circle cx="315" cy="144" r="2"/>
   </g>
 
-  <path d="M820 42 C798 42 768 48 748 58 L748 112 C748 152 778 178 820 192 C862 178 892 152 892 112 L892 58 C872 48 842 42 820 42 Z"
-        fill="#132844" stroke="#c9a35c" stroke-width="5" stroke-linejoin="round"/>
-  <path d="M793 108 L814 130 L852 84" fill="none" stroke="#c9a35c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="905,100 862,174 778,174 735,100 778,26 862,26" fill="none" stroke="#c9a35c" stroke-width="2.5" opacity="0.5"/>
+  <polygon points="872,130 820,160 768,130 768,70 820,40 872,70" fill="#132844" fill-opacity="0.3" stroke="#c9a35c" stroke-width="2.5" opacity="0.8"/>
+  <polygon points="855,100 838,130 803,130 785,100 803,70 838,70" fill="none" stroke="#c9a35c" stroke-width="2.5"/>
+  <circle cx="820" cy="100" r="4" fill="#c9a35c"/>
 
   <rect x="0" y="195" width="1000" height="5" fill="#9c7a3c" opacity="0.85"/>
 </svg>

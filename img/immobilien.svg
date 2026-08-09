@@ -14,14 +14,9 @@
     <circle cx="40" cy="144" r="2"/><circle cx="95" cy="144" r="2"/><circle cx="150" cy="144" r="2"/><circle cx="205" cy="144" r="2"/><circle cx="260" cy="144" r="2"/><circle cx="315" cy="144" r="2"/>
   </g>
 
-  <rect x="845" y="58" width="14" height="45" fill="#132844" stroke="#c9a35c" stroke-width="4"/>
-  <polygon points="800,45 715,110 885,110" fill="#132844" stroke="#c9a35c" stroke-width="5" stroke-linejoin="round"/>
-  <rect x="735" y="110" width="130" height="80" fill="#132844" stroke="#c9a35c" stroke-width="5"/>
-  <rect x="750" y="128" width="20" height="20" fill="none" stroke="#c9a35c" stroke-width="3"/>
-  <rect x="830" y="128" width="20" height="20" fill="none" stroke="#c9a35c" stroke-width="3"/>
-  <rect x="778" y="150" width="44" height="40" rx="3" fill="none" stroke="#c9a35c" stroke-width="4"/>
-
-  <line x1="650" y1="192" x2="950" y2="192" stroke="#9c7a3c" stroke-width="2" opacity="0.5"/>
+  <polygon points="700,190 700,80 820,50 820,190" fill="#132844" fill-opacity="0.25" stroke="#c9a35c" stroke-width="3" opacity="0.5"/>
+  <polygon points="760,190 760,60 870,35 870,190" fill="#132844" fill-opacity="0.4" stroke="#c9a35c" stroke-width="3" opacity="0.7"/>
+  <polygon points="820,190 820,45 930,20 930,190" fill="#132844" fill-opacity="0.6" stroke="#c9a35c" stroke-width="3.5"/>
 
   <rect x="0" y="195" width="1000" height="5" fill="#9c7a3c" opacity="0.85"/>
 </svg>
